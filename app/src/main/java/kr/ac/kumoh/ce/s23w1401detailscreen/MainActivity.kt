@@ -25,9 +25,10 @@ class MainActivity : ComponentActivity() {
 fun MainScreen() {
     S23W1401DetailScreenTheme {
         Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background
-    ) {
-        SongApp()
+            modifier = Modifier.fillMaxSize(),
+            color = MaterialTheme.colorScheme.background
+        ) {
+            SongApp()
+        }
     }
 }
